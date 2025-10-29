@@ -19,3 +19,27 @@ Each notebook explores how different optimizers affect model training behavior a
 | **AdamW** | Adam variant with decoupled weight decay for better regularization. |
 | **LAMB** | Layer-wise Adaptive Moments optimizer designed for large-batch training. |
 | **Lion** | Momentum-free optimizer using sign gradients for simplicity and speed. |
+
+
+
+## 📂 Repository Structure
+├── AdaBelief.ipynb
+├── AdamW.ipynb
+├── LAMB.ipynb
+├── Lion.ipynb
+├── README.md
+└── requirements.txt
+
+## 🧩 Requirements
+Install all dependencies with
+cv2
+lime
+matplotlib
+numpy
+pandas
+shap
+skimage
+sklearn
+tensorflow ≥ 2.13
+transformers
+
